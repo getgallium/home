@@ -1,0 +1,80 @@
+.scroll {
+    max-height: 85vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section .points {
+    height: 550.1px;
+
+}
+
+.footer {
+    background: #2b2b2b00;
+}
+
+.container {
+    /* width: 1265px; */
+}
+
+.section-header .title {
+    margin-top: 56px;
+}
+
+.laptop {
+    top: -50px;
+    left: -66px;
+    height: 450px;
+
+}
+
+.btn {
+    border-color: #087bfc;
+    color: #0e7ffc;
+}
+
+.btn:hover {
+    border-color: #087bfc;
+    color: #0e7ffc;
+}
+
+.section {
+    padding: 0px 0px 30px 0px;
+    position: relative;
+}
+
+.section-header {
+    padding-top: 0px;
+}
+
+/* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+    background-color: rgba(191, 191, 191, 0.193);
+    border-radius: 3rem;
+}
+
+/* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(89, 89, 89, 0.207);
+    border-radius: 3rem;
+}
+
+/* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+    background-color: rgb(255, 255, 255);
+}
+
+/* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+    background-color: rgb(255, 254, 254);
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+}
+
+/* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
