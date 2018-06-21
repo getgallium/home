@@ -14,14 +14,16 @@
     background: white;
 }
 
-.container {
-    /* width: 1265px; */
-}
+/* .container {
+    width: 1265px;
+} */
 
 .section-header .title {
-    margin-top: 95px;
+    margin-top: 100px;
 }
-
+/* .section-header  {
+    margin-top: 95px;
+} */
 .laptop {
     top: -50px;
     left: -66px;
