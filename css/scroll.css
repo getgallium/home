@@ -4,10 +4,12 @@
     overflow-y: auto;
 }
 .section .points {
-    height: 550.1px;
+    height: 97%;
 
 }
-
+.section-header .points {
+    z-index: 1;
+}
 .footer {
     background: white;
 }

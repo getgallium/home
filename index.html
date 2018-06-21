@@ -23,7 +23,7 @@
 	<nav class="navbar navbar-default" role="navigation-demo">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="">
+				<a class="navbar-brand" href="https://getgallium.github.io/home/">
 					<span>
 						<img src="./images/favicons/android-chrome-192x192.png" width="120px" alt="logo">
 					</span>
@@ -107,13 +107,15 @@
 
 
 	</div>
-	<footer class="footer footer-black">
+	<footer class="footer footer-black col-z-index">
+			
 		<div class="container">
 			<div class="pull-left">
 				<div class="copyright">
 					<small>
 						© 2018
-						<a href="" style="color: #087bfc">Black Ruby</a>, made with love for a better web.
+						<a href="https://blackruby-offical.github.io/home/" style="color: #087bfc">Black Ruby</a>, made with love for a better web.
+
 					</small>
 				</div>
 			</div>
@@ -139,6 +141,31 @@
 			})
 		});
 	</script>
+	
+	
+  <!-- facebook messager  -->
+  <div class="fb-customerchat"
+			page_id="166318484225515"
+			minimized="false">
+	</div>
+  <script>
+	 window.fbAsyncInit = function() {
+		FB.init({
+		  appId            : '912333495590130',
+		  autoLogAppEvents : true,
+		  xfbml            : true,
+		  version          : 'v2.11'
+		});
+	 };
+  (function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "https://connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	  }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
 </body>
 
 </html>
